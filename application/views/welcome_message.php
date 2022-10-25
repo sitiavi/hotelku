@@ -8,7 +8,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 
 	<style type="text/css">
 
-	::selection { background-color: #E13300; color: white; }
+	::selection { background-color: #ffffff ; color: white; }
 	::-moz-selection { background-color: #E13300; color: white; }
 
 	body {
@@ -61,7 +61,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 	}
 
 	p.footer {
-		text-align: right;
+		text-align: center;
 		font-size: 11px;
 		border-top: 1px solid #D0D0D0;
 		line-height: 32px;

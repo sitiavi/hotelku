@@ -11,5 +11,11 @@ class Web extends CI_Controller{
  $this->load->view('v_header',$data);
  $this->load->view('v_index',$data);
  $this->load->view('v_footer',$data);
- } }
+ }
+ public function reservasi(){
+   $data['judul'] = "Halaman reservasi";
+   $this->load->view('v_header',$data);
+   $this->load->view('v_reservasi',$data);
+   $this->load->view('v_footer',$data);
+} }
  ?>
